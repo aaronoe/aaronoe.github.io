@@ -44290,12 +44290,12 @@ G.Ms.prototype={
 $0:function(){this.a.$0()},
 $S:1}
 B.b2.prototype={
-EG:function(){var u=W.Z9("ws://127.0.0.1:8000/"),t=W.hE,s=X.fU
+EG:function(){var u=W.Z9("ws://seminar-matching.herokuapp.com/"),t=W.hE,s=X.fU
 new P.M7(H.e(new B.xA(),{func:1,ret:s,args:[t]}),new W.i2(u,"message",!1,[t]),[t,s]).PV(new B.xB(this))},
 jg:function(){var u=0,t=P.aj(null),s=this,r,q
 var $async$jg=P.af(function(a,b){if(a===1)return P.ag(b,t)
 while(true)switch(u){case 0:u=2
-return P.aq(s.d.pH("GET","http://127.0.0.1:8000/match",null),$async$jg)
+return P.aq(s.d.pH("GET","https://seminar-matching.herokuapp.com/match",null),$async$jg)
 case 2:r=b
 q=C.ab.d0(0,B.a_P(U.ZK(r.e).c.a.j(0,"charset")).d0(0,r.x))
 P.Pu(q)
@@ -44305,14 +44305,14 @@ return P.ah(null,t)}})
 return P.ai($async$jg,t)},
 qT:function(){var u=0,t=P.aj(null)
 var $async$qT=P.af(function(a,b){if(a===1)return P.ag(b,t)
-while(true)switch(u){case 0:window.location.assign("http://127.0.0.1:8000/download")
+while(true)switch(u){case 0:window.location.assign("https://seminar-matching.herokuapp.com/download")
 return P.ah(null,t)}})
 return P.ai($async$qT,t)},
 ms:function(a){var u=0,t=P.aj(null),s,r=this,q
 var $async$ms=P.af(function(b,c){if(b===1)return P.ag(c,t)
 while(true)switch(u){case 0:q=P.m
 u=3
-return P.aq(r.d.pH("DELETE","http://127.0.0.1:8000/students/"+H.f(a.b),H.h(P.b_(["Origin","test"],q,q),"$iy",[q,q],"$ay")),$async$ms)
+return P.aq(r.d.pH("DELETE","https://seminar-matching.herokuapp.com/students/"+H.f(a.b),H.h(P.b_(["Origin","test"],q,q),"$iy",[q,q],"$ay")),$async$ms)
 case 3:s=c
 u=1
 break
@@ -44322,7 +44322,7 @@ mr:function(a){var u=0,t=P.aj(null),s,r=this,q
 var $async$mr=P.af(function(b,c){if(b===1)return P.ag(c,t)
 while(true)switch(u){case 0:q=P.m
 u=3
-return P.aq(r.d.pH("DELETE","http://127.0.0.1:8000/seminars/"+H.f(a.a),H.h(P.b_(["Origin","test"],q,q),"$iy",[q,q],"$ay")),$async$mr)
+return P.aq(r.d.pH("DELETE","https://seminar-matching.herokuapp.com/seminars/"+H.f(a.a),H.h(P.b_(["Origin","test"],q,q),"$iy",[q,q],"$ay")),$async$mr)
 case 3:s=c
 u=1
 break
@@ -44343,7 +44343,7 @@ return P.ai($async$n7,t)},
 mm:function(a,b){var u=0,t=P.aj(null),s=this
 var $async$mm=P.af(function(c,d){if(c===1)return P.ag(d,t)
 while(true)switch(u){case 0:u=2
-return P.aq(s.n7("http://127.0.0.1:8000/seminars",P.b_(["name",a,"capacity",J.c8(b)],P.m,null)),$async$mm)
+return P.aq(s.n7("https://seminar-matching.herokuapp.com/seminars",P.b_(["name",a,"capacity",J.c8(b)],P.m,null)),$async$mm)
 case 2:return P.ah(null,t)}})
 return P.ai($async$mm,t)},
 mn:function(a,b){return this.Om(a,H.h(b,"$il",[V.bF],"$al"))},
@@ -44352,7 +44352,7 @@ var $async$mn=P.af(function(c,d){if(c===1)return P.ag(d,t)
 while(true)switch(u){case 0:r=[P.y,P.m,,]
 q=H.n(b,0)
 u=2
-return P.aq(s.n7("http://127.0.0.1:8000/students",P.b_(["name",a,"preferences",new H.bw(b,H.e(new B.xC(),{func:1,ret:r,args:[q]}),[q,r]).aK(0)],P.m,null)),$async$mn)
+return P.aq(s.n7("https://seminar-matching.herokuapp.com/students",P.b_(["name",a,"preferences",new H.bw(b,H.e(new B.xC(),{func:1,ret:r,args:[q]}),[q,r]).aK(0)],P.m,null)),$async$mn)
 case 2:return P.ah(null,t)}})
 return P.ai($async$mn,t)},
 sMa:function(a){this.e=H.h(a,"$il",[V.cI],"$al")},
