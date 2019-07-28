@@ -44963,7 +44963,7 @@ G.MG.prototype={
 $0:function(){this.a.$0()},
 $S:1}
 B.aU.prototype={
-ES:function(){var u=W.Zp("ws://seminar-matching.herokuapp.com//"),t=W.hK,s=X.h0
+ES:function(){var u=W.Zp("wss://seminar-matching.herokuapp.com//"),t=W.hK,s=X.h0
 new P.Ml(H.e(new B.xU(),{func:1,ret:s,args:[t]}),new W.i8(u,"message",!1,[t]),[t,s]).PZ(new B.xV(this))},
 lf:function(a){var u=0,t=P.ah(null),s=this,r,q
 var $async$lf=P.ad(function(b,c){if(b===1)return P.ae(c,t)
